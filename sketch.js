@@ -24,7 +24,7 @@ var Switch=false;
 var no=0;
 var ob,obstacleI;
 function preload(){
-  player1_img = loadAnimation("./images/Sprites/Blue/B1.png", "./images/Sprites/Blue/B2.png", "./images/Sprites/Blue/B3.png", "./images/Sprites/Blue/B4.png", "./images/Sprites/Blue/B5.png");
+  player1_img = loadAnimation("/tree/main/images/Sprites/Blue/B1.png", "./images/Sprites/Blue/B2.png", "./images/Sprites/Blue/B3.png", "./images/Sprites/Blue/B4.png", "./images/Sprites/Blue/B5.png");
   player2_img = loadAnimation("./images/Sprites/Red/R1.png", "./images/Sprites/Red/R2.png", "./images/Sprites/Red/R3.png", "./images/Sprites/Red/R4.png", "./images/Sprites/Red/R5.png");
   bg=loadImage("./images/Bg/Morning.jpg")
   bg1=loadImage("./images/form_bg.jpg")
